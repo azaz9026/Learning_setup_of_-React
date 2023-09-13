@@ -25,17 +25,23 @@ function App() {
 
   return (
     <>
-      <h1>Chai Aur React</h1>
-      <h2>Counter Value : {counter} </h2>
 
-      <button onClick={addValue}
-      >Add Value </button>
+        
+      {/*<h1>Chai Aur React</h1>
+          <h2>Counter Value : {counter} </h2>
 
-      <br/>
-      
-      <button onClick={removeValue}
-      >Remove Value </button>
-    </>
+          <button onClick={addValue}
+          >Add Value </button>
+
+          <br/>
+          
+          <button onClick={removeValue}
+      >Remove Value </button> */}
+
+
+      <h1 className="text-center bg-green-400">Tailwind Css</h1>
+
+  </> 
   )
 }
 
