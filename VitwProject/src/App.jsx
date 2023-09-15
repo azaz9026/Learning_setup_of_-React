@@ -1,47 +1,32 @@
 import { useState } from "react";
 
 
+
 function App() {
 
-  const userName = "Chai aur Code"
-
- // let counter = 13
-  
- let [counter , setCounter ] = useState(15)
+  const [counter, setcounter] = useState(15)
 
   const addValue = () => {
-     
-    //counter = counter + 1;
-    setCounter(counter + 1);
-   
+    setcounter(counter + 1)
   }
-  
-  const removeValue = ()=>{
 
-    setCounter(counter - 1);
-  
+  const removeValue = () => {
+    setcounter(counter - 1)
   }
 
 
   return (
     <>
 
-        
-      {/*<h1>Chai Aur React</h1>
-          <h2>Counter Value : {counter} </h2>
+      <h1 className="text-center bg-green-400">Chai aur React</h1>
 
-          <button onClick={addValue}
-          >Add Value </button>
+      <h2>Counter Value :- {counter} </h2>
 
-          <br/>
-          
-          <button onClick={removeValue}
-      >Remove Value </button> */}
+      <button onClick={addValue}>Add Value</button>
 
+      <button onClick={removeValue}>Remove Value</button>
 
-      <h1 className="text-center bg-green-400">Tailwind Css</h1>
-
-  </> 
+   </> 
   )
 }
 
