@@ -7,14 +7,28 @@ function App() {
   const [counter, setcounter] = useState(15)
 
   const addValue = () => {
-    setcounter(counter + 1)
+    {/* setcounter( prevCounter => prevCounter + 1 )
+        setcounter( prevCounter => prevCounter + 1 )
+        setcounter( prevCounter => prevCounter + 1 )
+        setcounter( prevCounter => prevCounter + 1 )
+    */}
+
     setcounter(counter + 1)
     setcounter(counter + 1)
     setcounter(counter + 1)
   }
 
   const removeValue = () => {
-    setcounter(counter - 1)
+
+      {/* setcounter( prevCounter => prevCounter - 1 )
+          setcounter( prevCounter => prevCounter - 1 )
+          setcounter( prevCounter => prevCounter - 1 )
+          setcounter( prevCounter => prevCounter - 1 )
+      */}
+
+     setcounter(counter - 1)
+     setcounter(counter - 1)
+     setcounter(counter - 1)
   }
 
 
